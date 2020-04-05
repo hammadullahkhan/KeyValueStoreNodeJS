@@ -1,0 +1,29 @@
+{
+  "name": "viafoura",
+  "version": "1.0.0",
+  "description": "Viafoura Cli app for key value store",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "startjs": "node ./src/main.js",
+    "test": "jest --coverage --detectOpenHandles",
+    "test:watch": "jest --coverage --watchAll --detectOpenHandles"
+  },
+  "author": "Hammad Khan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^12.7.2",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^25.3.1",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3",
+    "yarn": "^1.22.4"
+  }
+}
