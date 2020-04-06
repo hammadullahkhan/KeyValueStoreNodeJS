@@ -190,6 +190,7 @@ const {defaults} = require('jest-config');
 module.exports = {
   verbose: true,
   // moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx', 'js', 'jsx', 'node'],
+  // moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts'],
   transform: {"\\.ts$": ['ts-jest']}
 };

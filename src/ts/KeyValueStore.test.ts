@@ -110,9 +110,4 @@ describe('kvs store', () => {
         expect(kvs.countItems()).toEqual(0);
     });
 
-    it('should be able to call the displayMenu()', () => {
-        const menuStr = kvs.displayMenu();
-        expect(menuStr.length).toBeGreaterThan(50);
-    });
-
 })

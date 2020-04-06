@@ -2,10 +2,10 @@
   "name": "viafoura",
   "version": "1.0.0",
   "description": "Viafoura Cli app for key value store",
-  "main": "./src/index.ts",
+  "main": "./src/ts/index.ts",
   "scripts": {
-    "start": "nodemon ./src/index.ts",
-    "startjs": "node ./src/main.js",
+    "start": "nodemon ./src/ts/index.ts",
+    "startjs": "node ./src/js/main.js",
     "test": "jest --coverage --detectOpenHandles",
     "test:watch": "jest --coverage --watchAll --detectOpenHandles"
   },

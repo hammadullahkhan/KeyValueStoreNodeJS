@@ -55,7 +55,7 @@ function processInput(userCmd) {
         case `${CMD} get`:
             item = getItem(cmdObj.key);
         break;
-        case `${CMD} remove`:
+        case `${CMD} del`:
             item = delItem(cmdObj.key);
         break;
         case `${CMD} list`:
@@ -105,7 +105,7 @@ function displayMenu() {
     menuStr += `\nViafoura, In Memory Key/Value store\n\n`;
     menuStr += `\t- ${CMD} add {key} {value}\n`;
     menuStr += `\t- ${CMD} get {key}\n`;
-    menuStr += `\t- ${CMD} remove {key}\n`;
+    menuStr += `\t- ${CMD} del {key}\n`;
     menuStr += `\t- ${CMD} list\n`;
     menuStr += `\t- ${CMD} size\n`;
     menuStr += `\t- ${CMD} clean\n`;
